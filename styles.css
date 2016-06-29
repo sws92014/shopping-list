@@ -6,19 +6,54 @@ body {
 }
 
 .masthead {
-   position: absolute;
-   top: 10%;
+   position: relative;
+   top: 20%;
    left: 50%;
    width: 300px;
    height: 300px;
 }
 
-.box {
-    width: 300px;
-    height: 50px;
-    border: .2px solid black;
+.need-list {
+  margin: 0 auto;
+  padding: 0rem 0rem;
+  display: block;
 }
 
+.add-item {
+  margin: 0;
+}
+
+.add-item__input {
+  width: 200px;
+  margin: 0.5em 0em;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 2em;
+  box-sizing: border-box;
+  text-align: center;
+  color: #000000;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.add-item__btn {
+  background-color: #EA202D;
+  border-radius: 8px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  margin: 0.5em 0em;
+  padding: 0em,
+  width: 10rem;
+  font-size: 2em;
+  float: right;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.need-list {
+  padding-top: 100px;
+}
 ul {
 	text-align: center;
 	font-size: 20px;
@@ -29,6 +64,7 @@ ul {
    left: 50%;
    width: 300px;
    height: 75px;
+   padding-top: 50px;
 }
 
 .done-list {
