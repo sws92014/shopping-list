@@ -1,0 +1,36 @@
+body {
+	/*Typography Declaration */
+	color: #000000;
+	font-family: Noto Sans, sans-serif;
+	margin: 0;
+}
+
+.masthead {
+   position: absolute;
+   top: 10%;
+   left: 50%;
+   width: 300px;
+   height: 300px;
+}
+
+.box {
+    width: 300px;
+    height: 50px;
+    border: .2px solid black;
+}
+
+ul {
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.in-the-cart {
+   left: 50%;
+   width: 300px;
+   height: 75px;
+}
+
+.done-list {
+	text-decoration: line-through;
+}
