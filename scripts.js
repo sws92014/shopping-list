@@ -5,7 +5,7 @@ $(document).ready(function(){
 		if (itemToAdd != ""){
 			console.log(itemToAdd);
 			$(".need-list").prepend(
-				"<li class=\"sl-item\"><span class=\"side check\">&#x2713;</span><span class=\"middle\">"
+				"<li class=\"need-list-item\"><span class=\"side check\">&#x2713;</span><span class=\"middle\">"
 				+itemToAdd+"</span><span class=\"side ex\">&#x2717;</span></li>");
 			$(this).parent().children(".add-item__input").val("");
 		}
