@@ -8,13 +8,14 @@
   <body>
       <header></header>
       
-      <section class="masthead">
-        <div><img class="logo" src="images/shopping-list-logo.jpg" width="300"></div>
-            <form class="add-item">
+      <section class="wrapper">
+        <div class="logo-wrapper"><img class="logo" src="images/shopping-list-logo.jpg" width="300"></div>
+            <form class="add-item" id="shopping-form"> 
               <input class="add-item__input" type="text">
-              <input class="add-item__btn" value="add" type="submit">
+              <input class="add-item__btn" value="" type="submit">
             </form>
           <div class="need-list">
+            <li class="need-list-item"></li>
             <ul>apples</ul>
             <ul>oranges</ul>
             <ul>bread</ul>
@@ -25,7 +26,8 @@
             <ul>paper towels</ul>
           </div>
       </section>
-      
-     
+
+ <script src="http://code.jquery.com/jquery.min.js"></script>
+ <script src="scripts.js"></script>    
   </body>
 </html>
